@@ -7,21 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A4BA88820B2D69C00105F57 /* EditInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4BA88720B2D69C00105F57 /* EditInfo.storyboard */; };
+		4A4BA88A20B2D96100105F57 /* EditInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4BA88920B2D96100105F57 /* EditInfoViewController.swift */; };
+		4A4BA88C20B2EE2E00105F57 /* ChangePasswordOrEmail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4BA88B20B2EE2E00105F57 /* ChangePasswordOrEmail.storyboard */; };
+		4A4BA88E20B2EFF700105F57 /* ChangePasswordOrEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4BA88D20B2EFF700105F57 /* ChangePasswordOrEmailViewController.swift */; };
+		4A4BA89020B2F34300105F57 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4BA88F20B2F34300105F57 /* Login.storyboard */; };
+		4A4BA89220B2F41700105F57 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4BA89120B2F41700105F57 /* LoginViewController.swift */; };
+		4A4BA89420B2FAEC00105F57 /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 4A4BA89320B2F96F00105F57 /* default.realm */; };
+		4A5E771820AEE20A00798988 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E771720AEE20A00798988 /* ProfileService.swift */; };
+		4A5E771A20AEE23900798988 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E771920AEE23900798988 /* Profile.swift */; };
+		4A5E771C20AEE27F00798988 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E771B20AEE27F00798988 /* School.swift */; };
+		4A5E771E20AEE31900798988 /* Departments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E771D20AEE31900798988 /* Departments.swift */; };
+		4A5E772020AEE37100798988 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E771F20AEE37100798988 /* Course.swift */; };
+		4A5E772220AEE46300798988 /* DummyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E772120AEE46300798988 /* DummyService.swift */; };
+		4A5E772320AEE7B200798988 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C4FA205F33D300EA1A9A /* RequestProtocol.swift */; };
+		4A5E772520AEE7E500798988 /* UniversityDataRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E772420AEE7E500798988 /* UniversityDataRequests.swift */; };
+		4A5E772720AEE9E400798988 /* RealmFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E772620AEE9E400798988 /* RealmFactory.swift */; };
+		4A5E772920AF03DB00798988 /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E772820AF03DB00798988 /* SchoolViewController.swift */; };
+		4A5E772B20AF185300798988 /* AddInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E772A20AF185300798988 /* AddInfo.storyboard */; };
+		4A5E772D20AF1AA700798988 /* AddInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E772C20AF1AA700798988 /* AddInfoViewController.swift */; };
+		4A5E772F20AF45D600798988 /* Exam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E772E20AF45D600798988 /* Exam.swift */; };
+		4A5E773120B0D7B800798988 /* DepartmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E773020B0D7B800798988 /* DepartmentsViewController.swift */; };
+		4A5E773320B0D7C800798988 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E773220B0D7C700798988 /* CoursesViewController.swift */; };
+		4A5E773820B0DD1C00798988 /* AddItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E773620B0DD1C00798988 /* AddItemTableViewCell.swift */; };
+		4A5E773920B0DD1C00798988 /* AddItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E773720B0DD1C00798988 /* AddItemTableViewCell.xib */; };
+		4A7DBC5820ADE2B600226966 /* TokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C502205F380200EA1A9A /* TokenService.swift */; };
+		4AE56F2F20B45F68008887E0 /* StudentCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE56F2E20B45F68008887E0 /* StudentCalendarViewController.swift */; };
 		4AF9C4E4205F30EF00EA1A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C4E3205F30EF00EA1A9A /* AppDelegate.swift */; };
-		4AF9C4E6205F30EF00EA1A9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C4E5205F30EF00EA1A9A /* ViewController.swift */; };
+		4AF9C4E6205F30EF00EA1A9A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C4E5205F30EF00EA1A9A /* StartViewController.swift */; };
 		4AF9C4E9205F30EF00EA1A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF9C4E7205F30EF00EA1A9A /* Main.storyboard */; };
 		4AF9C4EB205F30EF00EA1A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF9C4EA205F30EF00EA1A9A /* Assets.xcassets */; };
 		4AF9C4EE205F30EF00EA1A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF9C4EC205F30EF00EA1A9A /* LaunchScreen.storyboard */; };
+		4AF9C4F6205F32D500EA1A9A /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C4F5205F32D500EA1A9A /* UIView+Additions.swift */; };
+		4AF9C506205F399800EA1A9A /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C505205F399800EA1A9A /* R.generated.swift */; };
+		4AF9C508205F813F00EA1A9A /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF9C507205F813F00EA1A9A /* Registration.storyboard */; };
+		4AF9C50F205F828B00EA1A9A /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C50E205F828B00EA1A9A /* RegistrationViewController.swift */; };
+		4AF9C511205F84A800EA1A9A /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C510205F84A800EA1A9A /* UIColor+Additions.swift */; };
+		4AF9C514205F882200EA1A9A /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C513205F882200EA1A9A /* CustomErrors.swift */; };
+		4AF9C516205F889A00EA1A9A /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF9C515205F889A00EA1A9A /* TabBar.storyboard */; };
+		4AF9C518205F88CA00EA1A9A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C517205F88CA00EA1A9A /* TabBarViewController.swift */; };
+		4AF9C51A205F896C00EA1A9A /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C519205F896C00EA1A9A /* NewsViewController.swift */; };
+		4AF9C51C205F897900EA1A9A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C51B205F897900EA1A9A /* ProfileViewController.swift */; };
+		4AF9C51E205FC3D200EA1A9A /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C51D205FC3D200EA1A9A /* NewsService.swift */; };
+		4AF9C520205FC71000EA1A9A /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C51F205FC71000EA1A9A /* News.swift */; };
+		4AF9C522205FCAB300EA1A9A /* RSSFeed+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C521205FCAB300EA1A9A /* RSSFeed+Additions.swift */; };
+		4AF9C529205FD56B00EA1A9A /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C527205FD56B00EA1A9A /* NewsCollectionViewCell.swift */; };
+		4AF9C52A205FD56B00EA1A9A /* NewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AF9C528205FD56B00EA1A9A /* NewsCollectionViewCell.xib */; };
+		5C6AA89ADE3FF927C3DFFDD5 /* Pods_Enrollee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD73FB48A6F2DC7A1AA89ABE /* Pods_Enrollee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C710154129036463F263CD5 /* Pods-Enrollee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enrollee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Enrollee/Pods-Enrollee.debug.xcconfig"; sourceTree = "<group>"; };
+		4A4BA88720B2D69C00105F57 /* EditInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditInfo.storyboard; sourceTree = "<group>"; };
+		4A4BA88920B2D96100105F57 /* EditInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditInfoViewController.swift; sourceTree = "<group>"; };
+		4A4BA88B20B2EE2E00105F57 /* ChangePasswordOrEmail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChangePasswordOrEmail.storyboard; sourceTree = "<group>"; };
+		4A4BA88D20B2EFF700105F57 /* ChangePasswordOrEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordOrEmailViewController.swift; sourceTree = "<group>"; };
+		4A4BA88F20B2F34300105F57 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		4A4BA89120B2F41700105F57 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4A4BA89320B2F96F00105F57 /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.realm; sourceTree = "<group>"; };
+		4A5E771720AEE20A00798988 /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		4A5E771920AEE23900798988 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		4A5E771B20AEE27F00798988 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		4A5E771D20AEE31900798988 /* Departments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departments.swift; sourceTree = "<group>"; };
+		4A5E771F20AEE37100798988 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		4A5E772120AEE46300798988 /* DummyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyService.swift; sourceTree = "<group>"; };
+		4A5E772420AEE7E500798988 /* UniversityDataRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDataRequests.swift; sourceTree = "<group>"; };
+		4A5E772620AEE9E400798988 /* RealmFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmFactory.swift; sourceTree = "<group>"; };
+		4A5E772820AF03DB00798988 /* SchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
+		4A5E772A20AF185300798988 /* AddInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddInfo.storyboard; sourceTree = "<group>"; };
+		4A5E772C20AF1AA700798988 /* AddInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoViewController.swift; sourceTree = "<group>"; };
+		4A5E772E20AF45D600798988 /* Exam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exam.swift; sourceTree = "<group>"; };
+		4A5E773020B0D7B800798988 /* DepartmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsViewController.swift; sourceTree = "<group>"; };
+		4A5E773220B0D7C700798988 /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+		4A5E773620B0DD1C00798988 /* AddItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableViewCell.swift; sourceTree = "<group>"; };
+		4A5E773720B0DD1C00798988 /* AddItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddItemTableViewCell.xib; sourceTree = "<group>"; };
+		4AE56F2E20B45F68008887E0 /* StudentCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCalendarViewController.swift; sourceTree = "<group>"; };
 		4AF9C4E0205F30EF00EA1A9A /* Enrollee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enrollee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF9C4E3205F30EF00EA1A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4AF9C4E5205F30EF00EA1A9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AF9C4E5205F30EF00EA1A9A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		4AF9C4E8205F30EF00EA1A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AF9C4EA205F30EF00EA1A9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AF9C4ED205F30EF00EA1A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AF9C4EF205F30EF00EA1A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF9C4F5205F32D500EA1A9A /* UIView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		4AF9C4FA205F33D300EA1A9A /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		4AF9C4FC205F359700EA1A9A /* RegistrationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationRequest.swift; sourceTree = "<group>"; };
+		4AF9C4FE205F368100EA1A9A /* AuthenticationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRequest.swift; sourceTree = "<group>"; };
+		4AF9C500205F36EB00EA1A9A /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		4AF9C502205F380200EA1A9A /* TokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenService.swift; sourceTree = "<group>"; };
+		4AF9C505205F399800EA1A9A /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		4AF9C507205F813F00EA1A9A /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
+		4AF9C50E205F828B00EA1A9A /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		4AF9C510205F84A800EA1A9A /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		4AF9C513205F882200EA1A9A /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
+		4AF9C515205F889A00EA1A9A /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		4AF9C517205F88CA00EA1A9A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4AF9C519205F896C00EA1A9A /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		4AF9C51B205F897900EA1A9A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4AF9C51D205FC3D200EA1A9A /* NewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsService.swift; sourceTree = "<group>"; };
+		4AF9C51F205FC71000EA1A9A /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		4AF9C521205FCAB300EA1A9A /* RSSFeed+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RSSFeed+Additions.swift"; sourceTree = "<group>"; };
+		4AF9C527205FD56B00EA1A9A /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		4AF9C528205FD56B00EA1A9A /* NewsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCollectionViewCell.xib; sourceTree = "<group>"; };
+		8FBFF4204A9EB5DCE302157E /* Pods-Enrollee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enrollee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Enrollee/Pods-Enrollee.release.xcconfig"; sourceTree = "<group>"; };
+		AD73FB48A6F2DC7A1AA89ABE /* Pods_Enrollee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Enrollee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +118,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C6AA89ADE3FF927C3DFFDD5 /* Pods_Enrollee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		244D7685E1D8057CF54AA443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD73FB48A6F2DC7A1AA89ABE /* Pods_Enrollee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4AF9C4D7205F30EF00EA1A9A = {
 			isa = PBXGroup;
 			children = (
 				4AF9C4E2205F30EF00EA1A9A /* Enrollee */,
 				4AF9C4E1205F30EF00EA1A9A /* Products */,
+				710D6553F68E493524C606D5 /* Pods */,
+				244D7685E1D8057CF54AA443 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +154,131 @@
 		4AF9C4E2205F30EF00EA1A9A /* Enrollee */ = {
 			isa = PBXGroup;
 			children = (
+				4A4BA89320B2F96F00105F57 /* default.realm */,
+				4AF9C512205F881A00EA1A9A /* Errors */,
+				4AF9C4F9205F33B100EA1A9A /* Models */,
+				4AF9C4F8205F33AB00EA1A9A /* Requests */,
+				4AF9C4F7205F33A300EA1A9A /* Services */,
+				4AF9C50B205F824A00EA1A9A /* ViewControllers */,
+				4AF9C50A205F814F00EA1A9A /* Storyboards */,
+				4AF9C526205FD54D00EA1A9A /* Views */,
+				4AF9C525205FD53300EA1A9A /* Helpers */,
 				4AF9C4E3205F30EF00EA1A9A /* AppDelegate.swift */,
-				4AF9C4E5205F30EF00EA1A9A /* ViewController.swift */,
-				4AF9C4E7205F30EF00EA1A9A /* Main.storyboard */,
 				4AF9C4EA205F30EF00EA1A9A /* Assets.xcassets */,
 				4AF9C4EC205F30EF00EA1A9A /* LaunchScreen.storyboard */,
 				4AF9C4EF205F30EF00EA1A9A /* Info.plist */,
+				4AF9C505205F399800EA1A9A /* R.generated.swift */,
 			);
 			path = Enrollee;
+			sourceTree = "<group>";
+		};
+		4AF9C4F7205F33A300EA1A9A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9C502205F380200EA1A9A /* TokenService.swift */,
+				4AF9C500205F36EB00EA1A9A /* AuthenticationService.swift */,
+				4AF9C51D205FC3D200EA1A9A /* NewsService.swift */,
+				4A5E771720AEE20A00798988 /* ProfileService.swift */,
+				4A5E772120AEE46300798988 /* DummyService.swift */,
+				4A5E772620AEE9E400798988 /* RealmFactory.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4AF9C4F8205F33AB00EA1A9A /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9C4FA205F33D300EA1A9A /* RequestProtocol.swift */,
+				4AF9C4FC205F359700EA1A9A /* RegistrationRequest.swift */,
+				4AF9C4FE205F368100EA1A9A /* AuthenticationRequest.swift */,
+				4A5E772420AEE7E500798988 /* UniversityDataRequests.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		4AF9C4F9205F33B100EA1A9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9C51F205FC71000EA1A9A /* News.swift */,
+				4A5E771920AEE23900798988 /* Profile.swift */,
+				4A5E771B20AEE27F00798988 /* School.swift */,
+				4A5E771D20AEE31900798988 /* Departments.swift */,
+				4A5E771F20AEE37100798988 /* Course.swift */,
+				4A5E772E20AF45D600798988 /* Exam.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4AF9C50A205F814F00EA1A9A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9C4E7205F30EF00EA1A9A /* Main.storyboard */,
+				4AF9C507205F813F00EA1A9A /* Registration.storyboard */,
+				4AF9C515205F889A00EA1A9A /* TabBar.storyboard */,
+				4A5E772A20AF185300798988 /* AddInfo.storyboard */,
+				4A4BA88720B2D69C00105F57 /* EditInfo.storyboard */,
+				4A4BA88B20B2EE2E00105F57 /* ChangePasswordOrEmail.storyboard */,
+				4A4BA88F20B2F34300105F57 /* Login.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4AF9C50B205F824A00EA1A9A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9C4E5205F30EF00EA1A9A /* StartViewController.swift */,
+				4AF9C50E205F828B00EA1A9A /* RegistrationViewController.swift */,
+				4AF9C517205F88CA00EA1A9A /* TabBarViewController.swift */,
+				4AF9C519205F896C00EA1A9A /* NewsViewController.swift */,
+				4AF9C51B205F897900EA1A9A /* ProfileViewController.swift */,
+				4A5E772820AF03DB00798988 /* SchoolViewController.swift */,
+				4A5E772C20AF1AA700798988 /* AddInfoViewController.swift */,
+				4A5E773020B0D7B800798988 /* DepartmentsViewController.swift */,
+				4A5E773220B0D7C700798988 /* CoursesViewController.swift */,
+				4A4BA88920B2D96100105F57 /* EditInfoViewController.swift */,
+				4A4BA88D20B2EFF700105F57 /* ChangePasswordOrEmailViewController.swift */,
+				4A4BA89120B2F41700105F57 /* LoginViewController.swift */,
+				4AE56F2E20B45F68008887E0 /* StudentCalendarViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4AF9C512205F881A00EA1A9A /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9C513205F882200EA1A9A /* CustomErrors.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		4AF9C525205FD53300EA1A9A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9C4F5205F32D500EA1A9A /* UIView+Additions.swift */,
+				4AF9C510205F84A800EA1A9A /* UIColor+Additions.swift */,
+				4AF9C521205FCAB300EA1A9A /* RSSFeed+Additions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4AF9C526205FD54D00EA1A9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9C527205FD56B00EA1A9A /* NewsCollectionViewCell.swift */,
+				4AF9C528205FD56B00EA1A9A /* NewsCollectionViewCell.xib */,
+				4A5E773620B0DD1C00798988 /* AddItemTableViewCell.swift */,
+				4A5E773720B0DD1C00798988 /* AddItemTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		710D6553F68E493524C606D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C710154129036463F263CD5 /* Pods-Enrollee.debug.xcconfig */,
+				8FBFF4204A9EB5DCE302157E /* Pods-Enrollee.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +288,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AF9C4F2205F30EF00EA1A9A /* Build configuration list for PBXNativeTarget "Enrollee" */;
 			buildPhases = (
+				F46A591BE73D7D93BD5F7777 /* [CP] Check Pods Manifest.lock */,
+				4AF9C504205F396300EA1A9A /* ShellScript */,
 				4AF9C4DC205F30EF00EA1A9A /* Sources */,
 				4AF9C4DD205F30EF00EA1A9A /* Frameworks */,
 				4AF9C4DE205F30EF00EA1A9A /* Resources */,
+				2B601B51A9BFA3A7505C24E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,21 +343,138 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A4BA88C20B2EE2E00105F57 /* ChangePasswordOrEmail.storyboard in Resources */,
+				4AF9C516205F889A00EA1A9A /* TabBar.storyboard in Resources */,
 				4AF9C4EE205F30EF00EA1A9A /* LaunchScreen.storyboard in Resources */,
+				4AF9C508205F813F00EA1A9A /* Registration.storyboard in Resources */,
+				4A5E772B20AF185300798988 /* AddInfo.storyboard in Resources */,
+				4A4BA89420B2FAEC00105F57 /* default.realm in Resources */,
+				4A5E773920B0DD1C00798988 /* AddItemTableViewCell.xib in Resources */,
 				4AF9C4EB205F30EF00EA1A9A /* Assets.xcassets in Resources */,
 				4AF9C4E9205F30EF00EA1A9A /* Main.storyboard in Resources */,
+				4A4BA88820B2D69C00105F57 /* EditInfo.storyboard in Resources */,
+				4AF9C52A205FD56B00EA1A9A /* NewsCollectionViewCell.xib in Resources */,
+				4A4BA89020B2F34300105F57 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B601B51A9BFA3A7505C24E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Enrollee/Pods-Enrollee-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework",
+				"${BUILT_PRODUCTS_DIR}/HTMLEntities/HTMLEntities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBCalendarKit/MBCalendarKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyPickerPopover/SwiftyPickerPopover.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTMLEntities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCalendarKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyPickerPopover.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Enrollee/Pods-Enrollee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AF9C504205F396300EA1A9A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
+		};
+		F46A591BE73D7D93BD5F7777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Enrollee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4AF9C4DC205F30EF00EA1A9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AF9C4E6205F30EF00EA1A9A /* ViewController.swift in Sources */,
+				4A5E772320AEE7B200798988 /* RequestProtocol.swift in Sources */,
+				4A5E771A20AEE23900798988 /* Profile.swift in Sources */,
+				4AE56F2F20B45F68008887E0 /* StudentCalendarViewController.swift in Sources */,
+				4A5E773320B0D7C800798988 /* CoursesViewController.swift in Sources */,
+				4A5E772920AF03DB00798988 /* SchoolViewController.swift in Sources */,
+				4A7DBC5820ADE2B600226966 /* TokenService.swift in Sources */,
+				4A4BA88E20B2EFF700105F57 /* ChangePasswordOrEmailViewController.swift in Sources */,
+				4A5E771820AEE20A00798988 /* ProfileService.swift in Sources */,
+				4A5E772F20AF45D600798988 /* Exam.swift in Sources */,
+				4AF9C4F6205F32D500EA1A9A /* UIView+Additions.swift in Sources */,
+				4A5E772520AEE7E500798988 /* UniversityDataRequests.swift in Sources */,
+				4AF9C514205F882200EA1A9A /* CustomErrors.swift in Sources */,
+				4AF9C506205F399800EA1A9A /* R.generated.swift in Sources */,
+				4A4BA88A20B2D96100105F57 /* EditInfoViewController.swift in Sources */,
+				4AF9C529205FD56B00EA1A9A /* NewsCollectionViewCell.swift in Sources */,
+				4AF9C4E6205F30EF00EA1A9A /* StartViewController.swift in Sources */,
+				4A5E773120B0D7B800798988 /* DepartmentsViewController.swift in Sources */,
+				4AF9C50F205F828B00EA1A9A /* RegistrationViewController.swift in Sources */,
+				4AF9C511205F84A800EA1A9A /* UIColor+Additions.swift in Sources */,
 				4AF9C4E4205F30EF00EA1A9A /* AppDelegate.swift in Sources */,
+				4AF9C522205FCAB300EA1A9A /* RSSFeed+Additions.swift in Sources */,
+				4A5E772720AEE9E400798988 /* RealmFactory.swift in Sources */,
+				4A4BA89220B2F41700105F57 /* LoginViewController.swift in Sources */,
+				4A5E772020AEE37100798988 /* Course.swift in Sources */,
+				4AF9C51E205FC3D200EA1A9A /* NewsService.swift in Sources */,
+				4A5E771C20AEE27F00798988 /* School.swift in Sources */,
+				4AF9C518205F88CA00EA1A9A /* TabBarViewController.swift in Sources */,
+				4A5E772D20AF1AA700798988 /* AddInfoViewController.swift in Sources */,
+				4A5E772220AEE46300798988 /* DummyService.swift in Sources */,
+				4AF9C51A205F896C00EA1A9A /* NewsViewController.swift in Sources */,
+				4A5E773820B0DD1C00798988 /* AddItemTableViewCell.swift in Sources */,
+				4AF9C51C205F897900EA1A9A /* ProfileViewController.swift in Sources */,
+				4AF9C520205FC71000EA1A9A /* News.swift in Sources */,
+				4A5E771E20AEE31900798988 /* Departments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +609,7 @@
 		};
 		4AF9C4F3205F30EF00EA1A9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C710154129036463F263CD5 /* Pods-Enrollee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +625,7 @@
 		};
 		4AF9C4F4205F30EF00EA1A9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBFF4204A9EB5DCE302157E /* Pods-Enrollee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

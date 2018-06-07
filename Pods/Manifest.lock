@@ -1,0 +1,83 @@
+PODS:
+  - Alamofire (4.6.0)
+  - FeedKit (7.0.1)
+  - HTMLEntities (3.0.9)
+  - IQKeyboardManagerSwift (5.0.7)
+  - MBCalendarKit (5.0.4)
+  - ObjectMapper (3.1.0)
+  - PhoneNumberKit (2.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 2.1.0)
+    - PhoneNumberKit/UIKit (= 2.1.0)
+  - PhoneNumberKit/PhoneNumberKitCore (2.1.0)
+  - PhoneNumberKit/UIKit (2.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - Realm (3.1.1):
+    - Realm/Headers (= 3.1.1)
+  - Realm/Headers (3.1.1)
+  - RealmSwift (3.1.1):
+    - Realm (= 3.1.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.0.0)
+  - SwiftyPickerPopover (6.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - FeedKit
+  - HTMLEntities (from `https://github.com/IBM-Swift/swift-html-entities.git`)
+  - IQKeyboardManagerSwift
+  - MBCalendarKit (~> 5.0.0)
+  - ObjectMapper
+  - PhoneNumberKit
+  - R.swift
+  - RealmSwift
+  - SVProgressHUD
+  - SwiftyJSON
+  - SwiftyPickerPopover
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - FeedKit
+    - IQKeyboardManagerSwift
+    - MBCalendarKit
+    - ObjectMapper
+    - PhoneNumberKit
+    - R.swift
+    - R.swift.Library
+    - Realm
+    - RealmSwift
+    - SVProgressHUD
+    - SwiftyJSON
+    - SwiftyPickerPopover
+
+EXTERNAL SOURCES:
+  HTMLEntities:
+    :git: https://github.com/IBM-Swift/swift-html-entities.git
+
+CHECKOUT OPTIONS:
+  HTMLEntities:
+    :commit: 98e7f5d9e5aed8cb43bcf2a07b81e52c4adf25b5
+    :git: https://github.com/IBM-Swift/swift-html-entities.git
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  FeedKit: 9be69ab57ef0eb922ee4b6c31cb6b8840a5bbb29
+  HTMLEntities: f117de937598406671591baa7829479213d4e4c2
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
+  MBCalendarKit: 4f7b4159bd97db9fd64301e8ce564f02c6513003
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  PhoneNumberKit: 62003f40ff75315fd3738286558bc365365ac222
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  Realm: 42d1c38a5b1bbcc828b48a7ce702cb86fc68adf4
+  RealmSwift: d31937ca6a6ee54acde64ec839523c0a3c04924b
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SwiftyPickerPopover: f1bb928efd60e4c754aa957c1bb67372465e9ccb
+
+PODFILE CHECKSUM: b69168647d7ad5ec5bd8afdf9e903eb2c288bfcf
+
+COCOAPODS: 1.5.0
